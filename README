@@ -1,0 +1,25 @@
+TO USE:
+	-download the files!
+	-get SDL
+	-go to this program's directory
+	-compile: 		g++ -o minesweeper *.cpp -lSDL -lSDL_image
+	-run it:		./minesweeper
+
+DESCRIPTION:
+	This is just a minesweeper game, nothing that special.  It has three 
+levels for you to play, and some pretty pictures to look at in the background 
+while playing.  SDL and Lazy Foo' Productions made this really easy to create 
+once I had the Board class created.  I used some of Lazy Foo's sub-programs 
+for loading the images onto SDL_Surfaces because they were very nicely organized.
+
+DIFFERENCES:
+	There are a few differences between this and the standard MS game.  
+If you lay a flag down, the flag doesn't stop an expansion from taking place.  
+The game just mocks you in the end whether or not you win by showing where 
+your incorrect flag markings were.  Also, this version does not give you a 
+click for free at the beginning like the Microsoft version; if you click on 
+a mine anytime, you blow up.  Obviously, the dimensions and mine counts are 
+customized.
+
+CREDIT:
+	by Andrew Hoyle 12/12/12
